@@ -1,0 +1,34 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background-color: #FFFFFF;
+}
+
+.container {
+    width: 100%;
+}
+
+.container header {
+    width: 100%;
+    height: 808px;
+    background-image: url(./media/image/headerbacground.png);
+    background-size: 100%;
+}
+
+.container header nav {
+    min-width: 1264px;
+    height: 46px;
+    margin: 0px auto;
+    margin-top: 56px;
+    color: #FCFCFC;
+    display: flex;
+    justify-content: space-between;
+}
