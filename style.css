@@ -495,3 +495,181 @@ body {
     font-size: 12.8px;
     color: #FFFFFF;
 }
+
+/* responsive mobile */
+
+@media screen and (min-width: 360px) and (max-width: 414px) {
+    body {
+        width: 100%;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .container header {
+        background-image: url(./media/image/Rectangle\ 79.png);
+        background-repeat: no-repeat;
+    }
+
+    .container header nav {
+        width: 100%;
+        padding: 0px 20px;
+    }
+
+    .container header nav .navLeft img {
+        width: 153px;
+    }
+
+    .container header nav .navLeft ul {
+        display: none;
+    }
+
+    .container header .header {
+        width: 100%;
+        padding: 0px 20px;
+        margin-top: 110px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container header .header .headerTitle span {
+        width: 310px;
+        font-weight: 700;
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .container header .header .headerInfos {
+        width: 328px;
+        height: 168px;
+        justify-self: center;
+        align-self: center;
+    }
+
+    .container header .header .headerInfos span {
+        font-weight: 700;
+        font-size: 21px;
+    }
+
+    .container header .header .headerInfos p {
+        font-weight: 600;
+        font-size: 10px;
+        width: 226px;
+    }
+
+    .container header .header .headerInfos button {
+        min-width: 103px;
+        min-height: 32px;
+    }
+
+    .container main {
+        width: 100%;
+        margin-top: 0;
+        transform: translateY(-120px);
+    }
+
+    .container main .products {
+        width: 100%;
+        padding: 0px 20px;
+    }
+
+    .container main .products .productTitle {
+        font-weight: 700;
+        font-size: 24px;
+    }
+
+    .container main .products .productTitle::after {
+        width: 60px;
+    }
+
+    .container main .products .productr {
+        width: 100%;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .container main .products .productr .product {
+        width: 328px;
+        height: 417px;
+    }
+
+    .container main .products .productr .product .productInfo {
+        width: 328px;
+    }
+
+    /* .container main .mobileProducts {
+        transform: translateY(-200px);
+    } */
+
+    .container main .acsesuar {
+        width: 100%;
+        height: 1466px;
+    }
+
+    .container main .portfolioCon {
+        width: 100%;
+    }
+
+    .container main .portfolioCon .protfolioTitle {
+        font-weight: 700;
+        font-size: 24px;
+    }
+
+    .container main .portfolioCon .protfolioTitle::after {
+        width: 60px;
+    }
+
+    .container main .portfolioCon .portfolios {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .container main .portfolioCon .portfolios .protfolio {
+        width: 327px;
+        height: 433px;
+    }
+
+    .container main .portfolioCon .portfolios .protfolio img {
+        width: 327px;
+        height: 311px;
+    }
+
+    .container footer {
+        width: 100%;
+    }
+
+    .container footer .footerMain  {
+        width: 100%;
+        padding-top: 37px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container footer .footerMain .links ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container footer .footerMain .links .mobileNone {
+        display: none;
+    }
+
+    .container footer .footerMain .massengeLinks .footerLogo {
+        display: none;
+    }
+
+    .container footer .footerBottom {
+        width: 100%;
+    }
+
+    .container footer .footerBottom .footerBottomCon {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
